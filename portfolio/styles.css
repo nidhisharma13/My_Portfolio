@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f3fe;
+  }
+  
+  /* Header */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+  }
+section {
+    padding: 50px 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+}
+
+
+/*CSS for Education section */
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features article {
+    flex-basis: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.features article:hover {
+    transform: translateY(-5px);
+}
+
+.features article .content {
+    text-align: center;
+}
+
+.features article .content .fas {
+    font-size: 30px;
+    color: #555;
+}
+
+.features article .content h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.features article .content p {
+    color: #777;
+}
+
+/* CSS for Projects section */
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .posts article {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .posts article:hover {
+    transform: translateY(-5px);
+  }
+  
+  .posts article .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .posts article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .posts article p {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .posts article .actions {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .posts article .actions li {
+    margin-right: 10px;
+  }
+  
+  .posts article .actions .button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .posts article .actions .button:hover {
+    background-color: #333;
+  }
+  
+  /* CSS for Skills section */
+
+section {
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .progress {
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    background-color: #555;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+  }
+  
+  .progress-bar.active {
+    animation: progress-animation 2s ease forwards;
+  }
+  
+  @keyframes progress-animation {
+    0% {
+      width: 0;
+    }
+  }
+  
+  /* CSS for Contact section */
+
+section#contact {
+    padding: 60px 0;
+  }
+  
+  section#contact h2 {
+    margin-bottom: 30px;
+  }
+  
+  section#contact h4 {
+    margin-bottom: 20px;
+  }
+  
+  section#contact ul li {
+    margin-bottom: 10px;
+  }
+  
+  section#contact form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  section#contact form textarea.form-control {
+    resize: none;
+  }
+  
